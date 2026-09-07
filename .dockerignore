@@ -1,0 +1,18 @@
+# Keep the build context small and keep local secrets out of the image.
+.env
+.env.*
+!.env.example
+target/
+.git
+.github
+.claude
+.settings
+.classpath
+.project
+.factorypath
+.idea
+.vscode
+*.iml
+db/
+README.md
+HELP.md
